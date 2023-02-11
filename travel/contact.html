@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact Us page</title>
+	<style type="text/css">
+		body{margin: 0;}
+		.nav{background-color:black;
+		     padding:10px 20px;}
+		.nav a{padding-right: 30px;
+		       text-decoration: none;
+		       color: white;}
+		.nav a:hover{color: blue;}
+		footer{background-color:seagreen;
+			   position:fixed;
+		       bottom: 0;
+		       width: 100%;
+               text-align: center;
+               font-size: 15px;}
+
+            .a{background-color:lightgrey;
+               padding-left: 20px;}
+            .b{width: 95%;}
+            legend{color: blue;
+                   font-size:30px;}
+         
+
+	</style>
+</head>
+<body>
+      <div class="nav">
+      	<a href="home.html">Home</a>
+      	<a href="top destination.html">Top Destination</a>
+      	<a href="visit us.html">Visit Us</a>
+      	<a href="contact.html">Contact Us</a>
+      </div>
+          
+       <br><br>  
+
+      <div>
+      	<fieldset>
+            	<legend>Contact Us</legend>
+            	<form class="a">
+            		<label>Full Name :</label><br>
+            		<input type="text" name="name" class="b"><br><br>
+            		<label>Address</label><br>
+            		<input type="text" name="address"class="b"><br><br>
+            		<label>Phone no:</label><br>
+            		<input type="tel" name="Phone" placeholder="123-564-2545" class="b"><br><br>
+            		<label for="District">Your province</label><br>
+            		<select  class="b" >
+			    		<option>Central Province</option>
+			    		<option>Eastern Province</option>
+			    		<option>Northern Province</option>
+			    		<option>Southern Province </option>
+			    		<option>Western Province</option>
+			    		<option>North Western Province</option>
+			    		<option>North Central Province </option>
+			    		<option>Uva Province </option>
+			    		<option>Sabaragamuwa Province</option>
+			    	</select><br><br>
+			    	<label for="gender">Gender</label><br>
+			    	male<input type="radio" name="gender" value="male">
+			    	female<input type="radio" name="gender" value="male">
+                        <br><br>
+                        <label>Your favorite place</label><br>
+                        <input type="checkbox" name="Beaches" value="Beaches">Beaches<br>
+                        <input type="checkbox" name="Ancient place" value="Ancient place">Ancient place<br>
+                        <input type="checkbox" name="Museum" value="Museum">Museum<br>
+                        <br>
+                        <input type="submit" name="submit" value="submit" style="background-color:lightgreen;">
+            	</form>
+            	<br>
+            </fieldset>
+      </div>
+
+      <footer>
+      	<p>Travel Galle&copy2022,All Right Reserved.</p>
+      </footer>
+</body>
+</html>
